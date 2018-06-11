@@ -7,10 +7,19 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mustache-express": "^1.2.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baxter1707/nodeExercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baxter1707/nodeExercise/issues"
+  },
+  "homepage": "https://github.com/baxter1707/nodeExercise#readme",
+  "description": ""
 }

@@ -25,11 +25,11 @@ app.get("/todolist",function(req,res){
 })
 
 app.get("/todos",function(req,res){
-  res.render("todos", )
+  res.render("todos", {todo : ToDoItems})
 })
 
 app.get("/todo",function(req,res){
-  res.render("todo", {todo : ToDoItems})
+  res.render("todo")
 })
 
 app.post("/newToDoItem",function(req,res){
